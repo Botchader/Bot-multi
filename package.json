@@ -5,15 +5,16 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file-if-exists=.env index.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.23",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0",
     "pino": "^9.7.0",
-    "qrcode": "^1.5.4",
-    "node-telegram-bot-api": "^0.66.0"
+    "qrcode": "^1.5.4"
   }
 }
