@@ -7,6 +7,7 @@
  *   TELEGRAM_BOT_TOKEN   le token donné par @BotFather sur Telegram
  *   AI_API_KEY, BRAWLSTARS_API_KEY  (optionnels, si tu réactives ces commandes)
  */
+import 'dotenv/config';
 import { startTelegramBridge } from './telegram-bridge.js';
 import { restoreKnownSessions, setOwnerNotifier, getSession } from './sessionManager.js';
 import { handleIncomingMessage } from './commands.js';
